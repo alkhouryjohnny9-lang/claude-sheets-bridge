@@ -1,40 +1,6 @@
 {
-  "action": "batch",
-  "executed": false,
-  "ts": "1780007649.9822662",
-  "message": "Add Frequency column header to Subscriptions",
-  "operations": [
-    {
-      "action": "write",
-      "sheet": "\ud83d\udcc5 Subscriptions",
-      "range": "F2",
-      "values": [
-        [
-          "Frequency"
-        ]
-      ]
-    },
-    {
-      "action": "write",
-      "sheet": "\ud83d\udcc5 Subscriptions",
-      "range": "F3:F7",
-      "values": [
-        [
-          "Monthly"
-        ],
-        [
-          "Monthly"
-        ],
-        [
-          "Monthly"
-        ],
-        [
-          "Monthly"
-        ],
-        [
-          "Monthly"
-        ]
-      ]
-    }
-  ]
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-28T22:34:48.112Z"
 }
