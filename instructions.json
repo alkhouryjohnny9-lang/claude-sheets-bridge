@@ -1,5 +1,12 @@
 {
-  "action": "none",
-  "status": "ready",
-  "message": "Claude bridge is active"
+  "action": "write",
+  "sheet": "\ud83d\udcb3 Wallets",
+  "range": "C4",
+  "values": [
+    [
+      1500.0
+    ]
+  ],
+  "executed": false,
+  "ts": "1780006949.3663592"
 }
