@@ -1,6 +1,14 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-28T22:39:48.993Z"
+  "action": "dropdown",
+  "sheet": "\ud83d\udcc5 Subscriptions",
+  "range": "F3:F200",
+  "options": [
+    "Monthly",
+    "Bi-monthly",
+    "Every 28 days",
+    "Weekly (7 days)"
+  ],
+  "executed": false,
+  "ts": "1780008115.8949523",
+  "message": "Add Frequency dropdown"
 }
