@@ -1,6 +1,48 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T01:10:47.433Z"
+  "action": "batch",
+  "executed": false,
+  "ts": "1780017293.4206376",
+  "message": "Fix Projected Total row",
+  "operations": [
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcc5 Subscriptions",
+      "range": "D8",
+      "values": [
+        [
+          "=SUMIF(G3:G200,\"Active\",D3:D200)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcc5 Subscriptions",
+      "range": "I8",
+      "values": [
+        [
+          "=SUMIF(G3:G200,\"Active\",I3:I200)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcc5 Subscriptions",
+      "range": "J8",
+      "values": [
+        [
+          "=SUMIF(G3:G200,\"Active\",J3:J200)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcc5 Subscriptions",
+      "range": "K8",
+      "values": [
+        [
+          "=SUMIF(G3:G200,\"Active\",K3:K200)"
+        ]
+      ]
+    }
+  ]
 }
