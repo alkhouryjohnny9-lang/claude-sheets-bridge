@@ -1,30 +1,6 @@
 {
-  "action": "dropdown",
-  "sheet": "💳 Wallets",
-  "range": "C30:C39",
-  "options": [
-    "Fanbasis",
-    "Slash",
-    "Bank Beirut",
-    "Stripe",
-    "Wise",
-    "Payoneer",
-    "Whop",
-    "Whish Joh",
-    "Whish Jos",
-    "Drw Clr",
-    "Big",
-    "Joh Wallet",
-    "Jos Wallet",
-    "Rsrv W",
-    "Trezor",
-    "Binance Joh",
-    "Binance Jos",
-    "Stake",
-    "Bank Audi",
-    "OMT Jos"
-  ],
-  "message": "transfer To dropdown",
-  "executed": false,
-  "ts": "2026-05-29T03:12:28Z"
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-29T03:12:47.474Z"
 }
