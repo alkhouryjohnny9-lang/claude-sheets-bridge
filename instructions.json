@@ -1,6 +1,13 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T01:25:49.738Z"
+  "action": "write",
+  "sheet": "📊 Dashboard",
+  "range": "D5",
+  "values": [
+    [
+      "=SUMPRODUCT((TEXT('📝 Transactions'!A3:A1000,\"MMMM YYYY\")=TEXT('📊 Dashboard'!B3,\"MMMM YYYY\"))*('📝 Transactions'!C3:C1000=\"Income\")*('📝 Transactions'!E3:E1000))"
+    ]
+  ],
+  "message": "test: fix Revenue MTD D5",
+  "executed": false,
+  "ts": "2026-05-29T01:54:06Z"
 }
