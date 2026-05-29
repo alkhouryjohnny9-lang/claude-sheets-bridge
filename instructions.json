@@ -1,6 +1,232 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T02:58:47.566Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A4:G4",
+      "values": [
+        [
+          "Fanbasis",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A5:G5",
+      "values": [
+        [
+          "Slash",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A6:G6",
+      "values": [
+        [
+          "Bank Beirut",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A7:G7",
+      "values": [
+        [
+          "Stripe",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A8:G8",
+      "values": [
+        [
+          "Wise",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A9:G9",
+      "values": [
+        [
+          "Payoneer",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A10:G10",
+      "values": [
+        [
+          "Whop",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A11:G11",
+      "values": [
+        [
+          "Whish Joh",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A12:G12",
+      "values": [
+        [
+          "Whish Jos",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A13:G13",
+      "values": [
+        [
+          "Drw Clr",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A14:G14",
+      "values": [
+        [
+          "Big",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A15:G15",
+      "values": [
+        [
+          "Joh Wallet",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A16:G16",
+      "values": [
+        [
+          "Jos Wallet",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A17:G17",
+      "values": [
+        [
+          "Rsrv W",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    }
+  ],
+  "message": "WalletA: rows 4-17",
+  "executed": false,
+  "ts": "2026-05-29T03:00:23Z"
 }
