@@ -1,6 +1,58 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T03:25:47.751Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "D16",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('👥 CRM'!F3:F500,\"MMMM YYYY\")=TEXT('📊 Dashboard'!B3,\"MMMM YYYY\"))*('👥 CRM'!D3:D500=\"Closed\")*IFERROR(VLOOKUP('👥 CRM'!A3:A500,'📅 Subscriptions'!A:D,4,FALSE),0))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "D17",
+      "values": [
+        [
+          "=SUMIF('📅 Subscriptions'!G3:G50,\"Active\",'📅 Subscriptions'!D3:D50)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "C14",
+      "values": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "D14",
+      "values": [
+        [
+          "USD"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "E14",
+      "values": [
+        [
+          "Active"
+        ]
+      ]
+    }
+  ],
+  "message": "Fix D16 #REF, D17 #NA, Big wallet row",
+  "executed": false,
+  "ts": "2026-05-29T03:39:22Z"
 }
