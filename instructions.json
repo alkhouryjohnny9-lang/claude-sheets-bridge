@@ -1,6 +1,14 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T03:15:47.764Z"
+  "action": "dropdown",
+  "sheet": "📝 Transactions",
+  "range": "C3:C100",
+  "options": [
+    "Income",
+    "Transfer",
+    "Expense",
+    "Frozen"
+  ],
+  "message": "Type dropdown",
+  "executed": false,
+  "ts": "2026-05-29T03:16:08Z"
 }
