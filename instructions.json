@@ -1,13 +1,13 @@
 {
   "action": "dropdown",
   "sheet": "💳 Wallets",
-  "range": "E4:E23",
-  "values": [
+  "range": "E4:E5",
+  "options": [
     "Active",
     "Frozen",
     "Inactive"
   ],
-  "message": "test dropdown alone",
+  "message": "dropdown test2",
   "executed": false,
-  "ts": "2026-05-29T03:06:41Z"
+  "ts": "2026-05-29T03:08:10Z"
 }
