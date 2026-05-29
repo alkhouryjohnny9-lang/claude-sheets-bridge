@@ -1,6 +1,78 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T01:54:47.674Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "G5",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('📝 Transactions'!A3:A1000,\"MMMM YYYY\")=TEXT('📊 Dashboard'!B3,\"MMMM YYYY\"))*('📝 Transactions'!C3:C1000=\"Expense\")*('📝 Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "B13",
+      "values": [
+        [
+          "=COUNTIF('👥 CRM'!D2:D500,\"Lead\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "B14",
+      "values": [
+        [
+          "=COUNTIF('👥 CRM'!D2:D500,\"Booked\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "B15",
+      "values": [
+        [
+          "=COUNTIF('👥 CRM'!D2:D500,\"Showed\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "B16",
+      "values": [
+        [
+          "=COUNTIF('👥 CRM'!D2:D500,\"Closed\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "B18",
+      "values": [
+        [
+          "=COUNTIF('👥 CRM'!E2:E500,\"Churned\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "📊 Dashboard",
+      "range": "B3",
+      "values": [
+        [
+          "=DATE(2025,5,1)"
+        ]
+      ]
+    }
+  ],
+  "message": "Fix Expenses MTD + pipeline counts; B3->May to verify",
+  "executed": false,
+  "ts": "2026-05-29T01:56:48Z"
 }
