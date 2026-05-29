@@ -1,23 +1,6 @@
 {
-  "action": "batch",
-  "executed": false,
-  "ts": "1780017468.4678884",
-  "message": "Fix L column - restore as Notes",
-  "operations": [
-    {
-      "action": "write",
-      "sheet": "\ud83d\udcc5 Subscriptions",
-      "range": "L2",
-      "values": [
-        [
-          "Notes"
-        ]
-      ]
-    },
-    {
-      "action": "clear",
-      "sheet": "\ud83d\udcc5 Subscriptions",
-      "range": "L3:L200"
-    }
-  ]
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-29T01:18:47.913Z"
 }
