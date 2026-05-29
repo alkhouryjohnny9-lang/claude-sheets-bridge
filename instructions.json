@@ -2,11 +2,6 @@
   "action": "batch",
   "operations": [
     {
-      "action": "clear",
-      "sheet": "💳 Wallets",
-      "range": "A10:H39"
-    },
-    {
       "action": "write",
       "sheet": "💳 Wallets",
       "range": "A4:G4",
@@ -339,6 +334,21 @@
     {
       "action": "write",
       "sheet": "💳 Wallets",
+      "range": "B24:G24",
+      "values": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
       "range": "C24",
       "values": [
         [
@@ -359,10 +369,59 @@
     {
       "action": "write",
       "sheet": "💳 Wallets",
+      "range": "B25:G25",
+      "values": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
       "range": "C25",
       "values": [
         [
           "=SUMIF(E4:E23,\"Frozen\",C4:C23)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A26:H26",
+      "values": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A27:H27",
+      "values": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ]
       ]
     },
@@ -578,7 +637,7 @@
       ]
     }
   ],
-  "message": "Wallets: 20 names + transfers + Dashboard update",
+  "message": "Wallets v2: no clear action",
   "executed": false,
-  "ts": "2026-05-29T02:53:17Z"
+  "ts": "2026-05-29T02:56:44Z"
 }
