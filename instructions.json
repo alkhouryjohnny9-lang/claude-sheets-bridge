@@ -1,19 +1,6 @@
 {
-  "action": "write",
-  "sheet": "💳 Wallets",
-  "range": "A14:G14",
-  "values": [
-    [
-      "Big",
-      "",
-      0,
-      "USD",
-      "Active",
-      "",
-      ""
-    ]
-  ],
-  "message": "fix Big row 14",
-  "executed": false,
-  "ts": "2026-05-29T03:41:14Z"
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-29T03:41:47.247Z"
 }
