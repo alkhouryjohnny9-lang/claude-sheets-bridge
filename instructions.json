@@ -1,6 +1,30 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T03:17:47.903Z"
+  "action": "dropdown",
+  "sheet": "📝 Transactions",
+  "range": "L3:L100",
+  "options": [
+    "Fanbasis",
+    "Slash",
+    "Bank Beirut",
+    "Stripe",
+    "Wise",
+    "Payoneer",
+    "Whop",
+    "Whish Joh",
+    "Whish Jos",
+    "Drw Clr",
+    "Big",
+    "Joh Wallet",
+    "Jos Wallet",
+    "Rsrv W",
+    "Trezor",
+    "Binance Joh",
+    "Binance Jos",
+    "Stake",
+    "Bank Audi",
+    "OMT Jos"
+  ],
+  "message": "Wallet2 To dropdown",
+  "executed": false,
+  "ts": "2026-05-29T03:18:57Z"
 }
