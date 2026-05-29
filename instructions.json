@@ -1,48 +1,6 @@
 {
-  "action": "batch",
-  "operations": [
-    {
-      "action": "write",
-      "sheet": "📝 Transactions",
-      "range": "L2",
-      "values": [
-        [
-          "Wallet 2 (To)"
-        ]
-      ]
-    },
-    {
-      "action": "write",
-      "sheet": "📝 Transactions",
-      "range": "M2",
-      "values": [
-        [
-          "Fees ($)"
-        ]
-      ]
-    },
-    {
-      "action": "write",
-      "sheet": "📝 Transactions",
-      "range": "N2",
-      "values": [
-        [
-          "Net Amount ($)"
-        ]
-      ]
-    },
-    {
-      "action": "write",
-      "sheet": "📝 Transactions",
-      "range": "N3",
-      "values": [
-        [
-          "=ARRAYFORMULA(IF(E3:E100=\"\",\"\",E3:E100-IF(M3:M100=\"\",0,M3:M100)))"
-        ]
-      ]
-    }
-  ],
-  "message": "Transactions: new columns + Net Amount formula",
-  "executed": false,
-  "ts": "2026-05-29T03:14:47Z"
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-29T03:15:47.764Z"
 }
