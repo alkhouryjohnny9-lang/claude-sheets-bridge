@@ -1,6 +1,423 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T01:20:48.962Z"
+  "action": "batch",
+  "executed": false,
+  "ts": "1780017946.1931417",
+  "message": "Fix Dashboard - all sections driven by month selector B3",
+  "operations": [
+    {
+      "action": "clear",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "A6:C8"
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "D5",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!C3:C1000=\"Income\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "G5",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!C3:C1000=\"Expense\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J5",
+      "values": [
+        [
+          "=D5-G5"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "A5",
+      "values": [
+        [
+          "=SUMIF('\ud83d\udcb3 Wallets'!E4:E10,\"Active\",'\ud83d\udcb3 Wallets'!C4:C10)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M5",
+      "values": [
+        [
+          "=SUMIF('\ud83d\udcb3 Wallets'!E4:E10,\"Frozen\",'\ud83d\udcb3 Wallets'!C4:C10)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B13",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udc65 CRM'!F2:F500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udc65 CRM'!A2:A500<>\"\"))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B14",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udc65 CRM'!F2:F500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udc65 CRM'!D2:D500=\"Booked\"))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B15",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udc65 CRM'!F2:F500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udc65 CRM'!D2:D500=\"Showed\"))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B16",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udc65 CRM'!F2:F500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udc65 CRM'!D2:D500=\"Closed\"))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "D16",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udc65 CRM'!F2:F500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udc65 CRM'!D2:D500=\"Closed\")*('\ud83d\udc65 CRM'!H2:H500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B17",
+      "values": [
+        [
+          "=COUNTIF('\ud83d\udc65 CRM'!E2:E500,\"Active\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "D17",
+      "values": [
+        [
+          "=SUMIF('\ud83d\udc65 CRM'!E2:E500,\"Active\",'\ud83d\udc65 CRM'!H2:H500)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B18",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udc65 CRM'!G2:G500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udc65 CRM'!E2:E500=\"Churned\"))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J13",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Facebook Ads\")*('\ud83d\udce3 Marketing'!C3:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "L13",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Facebook Ads\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M13",
+      "values": [
+        [
+          "=IFERROR((=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Facebook Ads\")*('\ud83d\udcdd Transactions'!E3:E1000))-=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Facebook Ads\")*('\ud83d\udce3 Marketing'!C3:C500)))/=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Facebook Ads\")*('\ud83d\udce3 Marketing'!C3:C500)),\"N/A\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J14",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Instagram\")*('\ud83d\udce3 Marketing'!C3:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "L14",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Instagram\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M14",
+      "values": [
+        [
+          "=IFERROR((=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Instagram\")*('\ud83d\udcdd Transactions'!E3:E1000))-=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Instagram\")*('\ud83d\udce3 Marketing'!C3:C500)))/=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Instagram\")*('\ud83d\udce3 Marketing'!C3:C500)),\"N/A\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J15",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"TikTok\")*('\ud83d\udce3 Marketing'!C3:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "L15",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"TikTok\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M15",
+      "values": [
+        [
+          "=IFERROR((=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"TikTok\")*('\ud83d\udcdd Transactions'!E3:E1000))-=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"TikTok\")*('\ud83d\udce3 Marketing'!C3:C500)))/=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"TikTok\")*('\ud83d\udce3 Marketing'!C3:C500)),\"N/A\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J16",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"YouTube\")*('\ud83d\udce3 Marketing'!C3:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "L16",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"YouTube\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M16",
+      "values": [
+        [
+          "=IFERROR((=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"YouTube\")*('\ud83d\udcdd Transactions'!E3:E1000))-=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"YouTube\")*('\ud83d\udce3 Marketing'!C3:C500)))/=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"YouTube\")*('\ud83d\udce3 Marketing'!C3:C500)),\"N/A\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J17",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Organic\")*('\ud83d\udce3 Marketing'!C3:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "L17",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Organic\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M17",
+      "values": [
+        [
+          "=IFERROR((=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Organic\")*('\ud83d\udcdd Transactions'!E3:E1000))-=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Organic\")*('\ud83d\udce3 Marketing'!C3:C500)))/=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Organic\")*('\ud83d\udce3 Marketing'!C3:C500)),\"N/A\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "J18",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Other\")*('\ud83d\udce3 Marketing'!C3:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "L18",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Other\")*('\ud83d\udcdd Transactions'!E3:E1000))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "M18",
+      "values": [
+        [
+          "=IFERROR((=SUMPRODUCT((TEXT('\ud83d\udcdd Transactions'!A3:A1000,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcdd Transactions'!G3:G1000=\"Other\")*('\ud83d\udcdd Transactions'!E3:E1000))-=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Other\")*('\ud83d\udce3 Marketing'!C3:C500)))/=SUMPRODUCT((TEXT('\ud83d\udce3 Marketing'!A3:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udce3 Marketing'!B3:B500=\"Other\")*('\ud83d\udce3 Marketing'!C3:C500)),\"N/A\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "A23",
+      "values": [
+        [
+          "=TEXT(EDATE(DATEVALUE(\"1 \"&'\ud83d\udcca Dashboard'!B3),0),\"MMMM YYYY\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B23",
+      "values": [
+        [
+          "=SUMPRODUCT(('\ud83d\udcc5 Subscriptions'!G3:G200=\"Active\")*('\ud83d\udcc5 Subscriptions'!I3:I200))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "A24",
+      "values": [
+        [
+          "=TEXT(EDATE(DATEVALUE(\"1 \"&'\ud83d\udcca Dashboard'!B3),1),\"MMMM YYYY\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B24",
+      "values": [
+        [
+          "=SUMPRODUCT(('\ud83d\udcc5 Subscriptions'!G3:G200=\"Active\")*('\ud83d\udcc5 Subscriptions'!I3:I200))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "A25",
+      "values": [
+        [
+          "=TEXT(EDATE(DATEVALUE(\"1 \"&'\ud83d\udcca Dashboard'!B3),2),\"MMMM YYYY\")"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "B25",
+      "values": [
+        [
+          "=SUMPRODUCT(('\ud83d\udcc5 Subscriptions'!G3:G200=\"Active\")*('\ud83d\udcc5 Subscriptions'!I3:I200))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "K23",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcb8 Expenses'!A5:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcb8 Expenses'!B5:B500=\"Marketing\")*('\ud83d\udcb8 Expenses'!C5:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "K24",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcb8 Expenses'!A5:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcb8 Expenses'!B5:B500=\"Tools\")*('\ud83d\udcb8 Expenses'!C5:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "K25",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcb8 Expenses'!A5:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcb8 Expenses'!B5:B500=\"Personal\")*('\ud83d\udcb8 Expenses'!C5:C500))"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "\ud83d\udcca Dashboard",
+      "range": "K26",
+      "values": [
+        [
+          "=SUMPRODUCT((TEXT('\ud83d\udcb8 Expenses'!A5:A500,\"MMMM YYYY\")='\ud83d\udcca Dashboard'!B3)*('\ud83d\udcb8 Expenses'!B5:B500=\"Other\")*('\ud83d\udcb8 Expenses'!C5:C500))"
+        ]
+      ]
+    }
+  ]
 }
