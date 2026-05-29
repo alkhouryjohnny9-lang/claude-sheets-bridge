@@ -1,13 +1,6 @@
 {
-  "action": "dropdown",
-  "sheet": "💳 Wallets",
-  "range": "E4:E23",
-  "options": [
-    "Active",
-    "Frozen",
-    "Inactive"
-  ],
-  "message": "wallet status dropdown",
-  "executed": false,
-  "ts": "2026-05-29T03:09:46Z"
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-29T03:10:47.796Z"
 }
