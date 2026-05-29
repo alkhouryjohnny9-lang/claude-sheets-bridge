@@ -1,6 +1,198 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T03:00:47.602Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A18:G18",
+      "values": [
+        [
+          "Trezor",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A19:G19",
+      "values": [
+        [
+          "Binance Joh",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A20:G20",
+      "values": [
+        [
+          "Binance Jos",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A21:G21",
+      "values": [
+        [
+          "Stake",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A22:G22",
+      "values": [
+        [
+          "Bank Audi",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A23:G23",
+      "values": [
+        [
+          "OMT Jos",
+          "",
+          0,
+          "USD",
+          "Active",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A24",
+      "values": [
+        [
+          "TOTAL AVAILABLE (Excl. Frozen)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "C24",
+      "values": [
+        [
+          "=SUMIF(E4:E23,\"Active\",C4:C23)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A25",
+      "values": [
+        [
+          "FROZEN / IN TRANSIT"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "C25",
+      "values": [
+        [
+          "=SUMIF(E4:E23,\"Frozen\",C4:C23)"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A26:H27",
+      "values": [
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A28",
+      "values": [
+        [
+          "WALLET TRANSFERS"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A29:H29",
+      "values": [
+        [
+          "Date Sent",
+          "From Wallet",
+          "To Wallet",
+          "Amount ($)",
+          "Status",
+          "Date Arrived",
+          "Notes",
+          "✓ Arrived?"
+        ]
+      ]
+    }
+  ],
+  "message": "WalletB: rows 18-23 + total/frozen/transfers header",
+  "executed": false,
+  "ts": "2026-05-29T03:01:58Z"
 }
