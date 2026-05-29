@@ -120,73 +120,9 @@
           "=SUMIF('💳 Wallets'!E4:E23,\"Frozen\",'💳 Wallets'!C4:C23)"
         ]
       ]
-    },
-    {
-      "action": "dropdown",
-      "sheet": "💳 Wallets",
-      "range": "E4:E23",
-      "values": [
-        "Active",
-        "Frozen",
-        "Inactive"
-      ]
-    },
-    {
-      "action": "dropdown",
-      "sheet": "💳 Wallets",
-      "range": "B30:B39",
-      "values": [
-        "Fanbasis",
-        "Slash",
-        "Bank Beirut",
-        "Stripe",
-        "Wise",
-        "Payoneer",
-        "Whop",
-        "Whish Joh",
-        "Whish Jos",
-        "Drw Clr",
-        "Big",
-        "Joh Wallet",
-        "Jos Wallet",
-        "Rsrv W",
-        "Trezor",
-        "Binance Joh",
-        "Binance Jos",
-        "Stake",
-        "Bank Audi",
-        "OMT Jos"
-      ]
-    },
-    {
-      "action": "dropdown",
-      "sheet": "💳 Wallets",
-      "range": "C30:C39",
-      "values": [
-        "Fanbasis",
-        "Slash",
-        "Bank Beirut",
-        "Stripe",
-        "Wise",
-        "Payoneer",
-        "Whop",
-        "Whish Joh",
-        "Whish Jos",
-        "Drw Clr",
-        "Big",
-        "Joh Wallet",
-        "Jos Wallet",
-        "Rsrv W",
-        "Trezor",
-        "Binance Joh",
-        "Binance Jos",
-        "Stake",
-        "Bank Audi",
-        "OMT Jos"
-      ]
     }
   ],
-  "message": "WalletC: transfer formulas + Dashboard + dropdowns",
+  "message": "WalletC2: writes only, no dropdowns",
   "executed": false,
-  "ts": "2026-05-29T03:03:31Z"
+  "ts": "2026-05-29T03:05:07Z"
 }
