@@ -1,6 +1,104 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-30T16:04:47.480Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "A24:H24",
+      "background": "#0d6832",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 12
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "C24",
+      "numberFormat": "$#,##0.00",
+      "horizontalAlignment": "right",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 12
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "A25:H25",
+      "background": "#8a6d00",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 12
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "C25",
+      "numberFormat": "$#,##0.00",
+      "horizontalAlignment": "right",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 12
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "A26:H26",
+      "background": "#533483",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 14
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "C26",
+      "numberFormat": "$#,##0.00",
+      "horizontalAlignment": "right",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 14
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "A28:H28",
+      "background": "#1a1a2e",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 13
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "A29:H29",
+      "background": "#0f3460",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "fontSize": 10,
+      "horizontalAlignment": "center"
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "D30:D39",
+      "numberFormat": "$#,##0.00",
+      "horizontalAlignment": "right"
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "E30:E39",
+      "horizontalAlignment": "center"
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "H30:H39",
+      "horizontalAlignment": "center",
+      "bold": true
+    }
+  ],
+  "message": "Format Wallets: summary + transfers",
+  "executed": false,
+  "ts": "2026-05-30T16:06:20Z"
 }
