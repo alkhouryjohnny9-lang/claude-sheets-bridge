@@ -1,9 +1,6 @@
 {
-  "action": "format",
-  "sheet": "💳 Wallets",
-  "range": "A24:H24",
-  "background": "#00FF00",
-  "message": "row targeting test",
-  "executed": false,
-  "ts": "2026-05-30T16:02:14Z"
+  "action": "none",
+  "executed": true,
+  "result": "unknown",
+  "ts": "2026-05-30T16:02:48.026Z"
 }
