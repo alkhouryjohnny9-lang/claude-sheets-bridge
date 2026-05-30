@@ -1,11 +1,6 @@
 {
-  "action": "format",
-  "sheet": "💳 Wallets",
-  "range": "A1",
-  "background": "#1a1a2e",
-  "fontColor": "#ffffff",
-  "bold": true,
-  "message": "probe format action",
-  "executed": false,
-  "ts": "2026-05-30T15:57:57Z"
+  "action": "none",
+  "executed": true,
+  "result": "unknown",
+  "ts": "2026-05-30T15:58:47.435Z"
 }
