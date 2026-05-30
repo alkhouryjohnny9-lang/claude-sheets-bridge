@@ -1,6 +1,88 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-29T03:41:47.247Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "C14",
+      "values": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "D14",
+      "values": [
+        [
+          "USD"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "E14",
+      "values": [
+        [
+          "Active"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A24",
+      "values": [
+        [
+          "💰 TOTAL AVAILABLE"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A25",
+      "values": [
+        [
+          "⏳ FROZEN / IN TRANSIT"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A26",
+      "values": [
+        [
+          "🏦 NET WORTH"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "C26",
+      "values": [
+        [
+          "=C24+C25"
+        ]
+      ]
+    },
+    {
+      "action": "write",
+      "sheet": "💳 Wallets",
+      "range": "A28",
+      "values": [
+        [
+          "📤 WALLET TRANSFERS"
+        ]
+      ]
+    }
+  ],
+  "message": "Wallets: Net Worth + clean labels",
+  "executed": false,
+  "ts": "2026-05-30T15:51:00Z"
 }
