@@ -1,6 +1,39 @@
 {
-  "action": "none",
-  "executed": true,
-  "result": "success",
-  "ts": "2026-05-30T16:06:47.942Z"
+  "action": "batch",
+  "operations": [
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "E4:E23",
+      "background": "#1e7e34",
+      "fontColor": "#ffffff",
+      "bold": true,
+      "horizontalAlignment": "center"
+    },
+    {
+      "action": "format",
+      "sheet": "💳 Wallets",
+      "range": "A1",
+      "columnWidth": 200
+    },
+    {
+      "action": "setColumnWidth",
+      "sheet": "💳 Wallets",
+      "column": 1,
+      "width": 200
+    },
+    {
+      "action": "freeze",
+      "sheet": "💳 Wallets",
+      "rows": 3
+    },
+    {
+      "action": "hideColumn",
+      "sheet": "💳 Wallets",
+      "column": 2
+    }
+  ],
+  "message": "Status colors + probe structural actions",
+  "executed": false,
+  "ts": "2026-05-30T16:08:05Z"
 }
