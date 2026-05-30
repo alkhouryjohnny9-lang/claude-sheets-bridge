@@ -1,64 +1,6 @@
 {
-  "action": "batch",
-  "operations": [
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "A14:H14",
-      "background": "#ffffff",
-      "fontColor": "#000000",
-      "bold": false,
-      "fontSize": 10
-    },
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "A14",
-      "bold": true,
-      "horizontalAlignment": "left"
-    },
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "C14",
-      "numberFormat": "$#,##0.00",
-      "horizontalAlignment": "right"
-    },
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "E14",
-      "horizontalAlignment": "center"
-    },
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "A24:H24",
-      "background": "#14532d",
-      "fontColor": "#ffffff",
-      "bold": true,
-      "fontSize": 12
-    },
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "A25:H25",
-      "background": "#713f12",
-      "fontColor": "#ffffff",
-      "bold": true,
-      "fontSize": 12
-    },
-    {
-      "action": "format",
-      "sheet": "💳 Wallets",
-      "range": "A26:H26",
-      "background": "#3b0764",
-      "fontColor": "#ffffff",
-      "bold": true,
-      "fontSize": 14
-    }
-  ],
-  "message": "Fix Big row + reinforce summary colors",
-  "executed": false,
-  "ts": "2026-05-30T16:10:59Z"
+  "action": "none",
+  "executed": true,
+  "result": "success",
+  "ts": "2026-05-30T16:11:47.225Z"
 }
